@@ -2,16 +2,76 @@
 <html>
   <head>
     <title>Kai Dyer</title>
-    <style>
-      body {
-        font-family: sans-serif;
-        background-color: #708A58;
-        text-align: center;
-        margin-top: 50px;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Come back later ...</h1>
+    <header class="site_header">
+        <nav>
+          <ul role="list" class="flex flex_center">
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">Work Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
+      </header>
+    <section id="intro" class="intro">
+        <h1>Hey, welcome!</h1>
+        <h1>My name is Kai Dyer.</h1>  
+    </section>
+    
+    <section id="about" class="section-body">
+      <h4>I'm a software engineer with a passion for app and web development.</h4>
+      <h4>This is my website where I host my work and project experiences.</h4>
+      <h5>Everything you see here is very much still in progress!</h3>
+    </section>
+
+    <section id="work" class="section-body">
+      <div class="resume-item">
+        <div class="resume-header">
+          <h4 class="job-title">Software Engineer</h4>
+          <span class="job-dates">June 2023 - Present</span>
+        </div>
+        <h5 class="job-company">The MITRE Corporation</h5>
+        <ul class="job-responsibilities">
+          <li>Designed and developed a Java-based toolset for automatic validation and analysis of systems-of-systems models,
+            enabling rapid conformance checks to style guides and significantly reducing manual review time.</li>
+          <li>Contributed to a physics-based simulation in AFSIM to evaluate performance of complex government systems
+            under realistic conditions.</li>
+          <li>Demonstrated internal toolsets to government sponsors, emphasizing their impact and relevance to stakeholder
+            needs.</li>
+          <li>Regularly engaged with government and industry stakeholders to identify evolving needs and align software
+            development efforts with mission goals.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section-body">
+      <div class="resume-item">
+        <div class="resume-header">
+          <h4 class="job-title"><a href="https://github.com/kaidyer/MDRDarts">D.A.R.T.S</a></h4>
+          <span class="job-dates">Sept 2022 - May 2023</span>
+        </div>
+        <ul class="job-responsibilities">
+          <li>Collaborated in a 5-person team during a year-long design project.</li>
+          <li>Designed and implemented a system for automatic detection of thrown dart scores with high precision.</li>
+          <li>Developed an intuitive iPhone app using SwiftUI.</li>
+          <li>Demonstrated 96% accuracy in detecting score with 2mm precision.</li>
+        </ul>
+      </div>
+
+      <div class="resume-item">
+        <div class="resume-header">
+          <h4 class="job-title">Machine Learning For a 6G Network</h4>
+          <span class="job-dates">Sept 2022 - May 2023</span>
+        </div>
+        <ul class="job-responsibilities">
+          <li>Deployed a reinforcement learning algorithm within a simulated computer network environment to evaluate
+            adaptive performance.</li>
+          <li>Designed and implemented five distinct network configurations, each tailored to different use cases and performance
+            scenarios.</li>
+        </ul>
+      </div>
+    </section>
   </body>
 </html>

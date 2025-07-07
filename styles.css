@@ -1,0 +1,128 @@
+/* === Global Styles === */
+body {
+    font-family: sans-serif;
+    background-color: #708A58;
+    text-align: center;
+    margin-top: 5px;
+    color: #ffffff; /* White text for better contrast */
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
+/* === Header / Navigation === */
+.site_header {
+  position: sticky;
+  top: 0;
+  background-color: #708A58; /* match your body background */
+  z-index: 1000; /* stay above other content */
+}
+
+/* === Flex Utility Classes === */
+.flex {
+    display: flex;
+    align-items: center;
+    list-style: none; /* Remove bullets */
+    padding: 0;       /* Remove default padding */
+    margin: 0;        /* Remove default margin */
+}
+
+.flex_center {
+    justify-content: center;
+}
+
+.flex > li {
+  margin: 0 10px; /* 15px left and right spacing */
+}
+
+.site_header {
+  padding: 25px;
+}
+
+/* === Intro Section === */
+.intro {
+  margin: 50px;
+}
+
+.intro > h1 {
+  font-size: 30px;
+}
+
+/* === Section Body (Shared Styles) === */
+.section-body {
+  margin: 50px;
+  background-color: #e0ffe0;
+  border-radius: 8px;
+  padding: 5px;
+  color: #3a6b35; /* Medium Dark Green */
+}
+
+/* === Anchor / Link Styles === */
+a:link {
+  color: #90ee90; /* Light green */
+}
+
+a:visited {
+  color: #7ecb7e; /* Slightly darker green */
+}
+
+a:hover {
+  color: #b2fab4; /* Very light green */
+  text-decoration: underline;
+}
+
+a:active {
+  color: #4caf50; /* Medium green */
+}
+
+/* === Lists and Headings in Sections === */
+.section-body ul {
+  display: inline-block;
+  text-align: left;
+}
+
+.section-body h4 {
+  margin-bottom: 5px; /* or 0px if you want no gap at all */
+}
+
+/* === Resume Styles === */
+.resume-section {
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+.resume-item {
+  margin-bottom: 30px;
+  padding: 0px 30px;
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.job-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.job-dates {
+  font-size: 14px;
+  color: #a1ac9f;
+}
+
+.job-company {
+  font-style: italic;
+  margin: 5px 0 10px;
+}
+
+.job-responsibilities {
+  padding-left: 20px;
+}
+
+.job-responsibilities > li {
+  padding: 10px;
+}
